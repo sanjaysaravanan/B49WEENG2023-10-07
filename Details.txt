@@ -1,0 +1,65 @@
+
+Topics:
+
+  0. How to run an existing React codes in Github
+    1. Copy the repo url
+    2. run **git clone <rep-url>** in a clean folder
+    3. cd <project-name>
+    4. npm install
+    5. npm run dev --> might differ depending script used in the repo
+
+  1. What is hook?
+      Sort of hooking to the VDOM, controls the rendering VDOM
+      
+      Eg: useState --> helps in re-rendering whenever any changes in the state happens.
+       useState --> Help creating state variable
+
+  2. State vs Props:
+        Props ---> static values passed during rendering
+        Eg:
+          <Todo isCompleted={false} lastDate={'2023-01-01'}  />
+          isCompleted, lastDate props
+
+        State --> a value changes causing the re-rendering
+          <Counter initialValue={10} />, initialValue ---> prop
+
+          count value that changes inside the component is called state
+
+  3. Reusable Components:
+      Trying to re-reuse the parts of the 
+
+      Always look for commanalities in the design and write resusable components with same props 
+
+  4. Component Life Cycle:
+
+      Initialization: JS Loads the JSX into the memory
+
+      Mounting: JSX gets loaded into the RealDOM
+
+      Updating: Some contents or state gets updated in the RealDOM
+
+      Unmounting: Removign the element from the RealDOM
+
+  5. Life Cycle Hook - useEffect
+
+      We are gonna target each of the phases and we are going to do something those phases( Mounting, Updating, Unmounting )
+
+      Mounted: useEffect with Mounted
+
+  
+
+Next Session:
+
+  1. Updating & Unmounting
+
+  2. Passing data from child to parent component
+
+  7. Passing Dynamic Data to Components
+
+  8. Props drilling
+
+Task:
+
+  Day 23: https://docs.google.com/document/d/1frCM6keoI6YKQqxm0XbgEP2CCZjDH5Zi8wEp_NXtk2g/edit
+
+  Todo( CRUD ), Filtering
