@@ -42,7 +42,7 @@ Topics:
 
   5. Life Cycle Hook - useEffect
 
-      We are gonna target each of the phases and we are going to do something those phases( Mounting, Updating, Unmounting )
+      We are gonna target each of the phases and we are going to do something in those phases( Mounting, Updating, Unmounting )
 
       Mounted: useEffect with Mounted
 
